@@ -1,0 +1,978 @@
+==== Run 0 starts ====
+querying 0th time
+======= response ======= 
+  I will PICK the apple PATH [(0.29, 0.06, 0.51), (0.29, 0.06, 0.6), (-0.73, 0.40, 0.6), (-0.73, 0.40, 0.3)].
+======= usage ======= 
+  {
+  "completion_tokens": 66,
+  "prompt_tokens": 1336,
+  "total_tokens": 1402
+}
+querying 0th time
+======= response ======= 
+  I will PLACE the apple in bin_front_left PATH [(0.35, 1.05, 0.62), (0.35, 0.41, 0.62), (0.25, 0.41, 0.62), (0.25, 0.41, 0.36)].
+======= usage ======= 
+  {
+  "completion_tokens": 70,
+  "prompt_tokens": 1410,
+  "total_tokens": 1480
+}
+querying 0th time
+======= response ======= 
+  I will PLACE the banana in bin_front_right PATH [(0.29, 0.06, 0.51), (0.65, 0.41, 0.51), (0.65, 0.41, 0.36)]. 
+
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 58,
+  "prompt_tokens": 1484,
+  "total_tokens": 1542
+}
+querying 0th time
+======= response ======= 
+  I will PICK the milk PATH [(0.35, 1.05, 0.62), (0.35, 0.57, 0.62), (-0.01, 0.57, 0.62), (-0.01, 0.57, 0.47)].
+======= usage ======= 
+  {
+  "completion_tokens": 66,
+  "prompt_tokens": 1546,
+  "total_tokens": 1612
+}
+querying 0th time
+======= response ======= 
+  I will PICK the soda_can PATH [(0.29, 0.06, 0.51), (-0.72, 0.62, 0.51), (-0.72, 0.62, 0.33)]. 
+
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 55,
+  "prompt_tokens": 1616,
+  "total_tokens": 1671
+}
+querying 0th time
+======= response ======= 
+  I will PLACE the milk in bin_back_middle PATH [(0.35, 1.05, 0.62), (0.45, 0.58, 0.62), (0.45, 0.58, 0.36)].
+======= usage ======= 
+  {
+  "completion_tokens": 55,
+  "prompt_tokens": 1675,
+  "total_tokens": 1730
+}
+querying 0th time
+======= response ======= 
+  I will PICK the cereal PATH [(0.29, 0.06, 0.51), (-0.04, 0.38, 0.51), (-0.04, 0.38, 0.44)].
+======= usage ======= 
+  {
+  "completion_tokens": 51,
+  "prompt_tokens": 1734,
+  "total_tokens": 1785
+}
+querying 0th time
+======= response ======= 
+  I will PICK the cereal PATH [(0.35, 1.05, 0.62), (0.35, 0.38, 0.62), (-0.04, 0.38, 0.62), (-0.04, 0.38, 0.44)]. 
+
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 69,
+  "prompt_tokens": 1789,
+  "total_tokens": 1858
+}
+querying 0th time
+======= response ======= 
+  I will PLACE the cereal in bin_front_middle PATH [(0.29, 0.06, 0.51), (0.45, 0.41, 0.51), (0.45, 0.41, 0.36)]. 
+
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 58,
+  "prompt_tokens": 1862,
+  "total_tokens": 1920
+}
+querying 0th time
+======= response ======= 
+  I will PLACE the cereal in bin_front_middle PATH [(0.35, 1.05, 0.62), (0.45, 0.41, 0.62), (0.45, 0.41, 0.36)]. 
+
+EXECUTE
+NAME Bob ACTION PLACE cereal bin_front_middle PATH [(0.35, 1.05, 0.62), (0.45, 0.41, 0.62), (0.45, 0.41, 0.36)]
+======= usage ======= 
+  {
+  "completion_tokens": 113,
+  "prompt_tokens": 1953,
+  "total_tokens": 2066
+}
+
+This previous response from [Bob] failed to parse!: 'I will PLACE the cereal in bin_front_middle PATH [(0.35, 1.05, 0.62), (0.45, 0.41, 0.62), (0.45, 0.41, 0.36)]. 
+
+EXECUTE
+NAME Bob ACTION PLACE cereal bin_front_middle PATH [(0.35, 1.05, 0.62), (0.45, 0.41, 0.62), (0.45, 0.41, 0.36)]'
+Response missing plan for robot Alice. Re-format to strictly follow [Action Output Instruction]!
+querying 0th time
+======= response ======= 
+  I will PICK the bread PATH [(0.29, 0.06, 0.51), (-0.22, 0.60, 0.51), (-0.22, 0.60, 0.31)].
+======= usage ======= 
+  {
+  "completion_tokens": 51,
+  "prompt_tokens": 2183,
+  "total_tokens": 2234
+}
+querying 0th time
+======= response ======= 
+  I will PLACE the bread in bin_back_left PATH [(0.35, 1.05, 0.62), (0.25, 0.58, 0.62), (0.25, 0.58, 0.36)]. 
+
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 58,
+  "prompt_tokens": 2241,
+  "total_tokens": 2299
+}
+querying 0th time
+======= response ======= 
+  I will PICK the bread PATH [(0.29, 0.06, 0.51), (-0.22, 0.60, 0.51), (-0.22, 0.60, 0.31)].
+======= usage ======= 
+  {
+  "completion_tokens": 51,
+  "prompt_tokens": 2303,
+  "total_tokens": 2354
+}
+querying 0th time
+======= response ======= 
+  I will PICK the bread PATH [(0.35, 1.05, 0.62), (-0.22, 0.60, 0.62), (-0.22, 0.60, 0.31)].
+======= usage ======= 
+  {
+  "completion_tokens": 51,
+  "prompt_tokens": 2358,
+  "total_tokens": 2409
+}
+querying 0th time
+======= response ======= 
+  I will PLACE the bread in bin_back_left PATH [(0.29, 0.06, 0.51), (0.25, 0.58, 0.51), (0.25, 0.58, 0.36)].
+
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 58,
+  "prompt_tokens": 2413,
+  "total_tokens": 2471
+}
+querying 0th time
+======= response ======= 
+  I will PICK the bread PATH [(0.35, 1.05, 0.62), (-0.22, 0.60, 0.62), (-0.22, 0.60, 0.31)]. 
+
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 54,
+  "prompt_tokens": 2475,
+  "total_tokens": 2529
+}
+querying 0th time
+======= response ======= 
+  I will PICK the bread PATH [(0.29, 0.06, 0.51), (-0.22, 0.60, 0.51), (-0.22, 0.60, 0.31)].
+======= usage ======= 
+  {
+  "completion_tokens": 51,
+  "prompt_tokens": 2533,
+  "total_tokens": 2584
+}
+querying 0th time
+======= response ======= 
+  I will PICK the bread PATH [(0.35, 1.05, 0.62), (-0.22, 0.60, 0.62), (-0.22, 0.60, 0.31)]. 
+
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 54,
+  "prompt_tokens": 2588,
+  "total_tokens": 2642
+}
+querying 0th time
+======= response ======= 
+  I will PICK the bread PATH [(0.29, 0.06, 0.51), (-0.22, 0.60, 0.51), (-0.22, 0.60, 0.31)].
+======= usage ======= 
+  {
+  "completion_tokens": 51,
+  "prompt_tokens": 2646,
+  "total_tokens": 2697
+}
+querying 0th time
+======= response ======= 
+  I will PLACE the bread in bin_back_left PATH [(0.35, 1.05, 0.62), (0.25, 0.58, 0.62), (0.25, 0.58, 0.36)].
+
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 58,
+  "prompt_tokens": 2730,
+  "total_tokens": 2788
+}
+
+This previous response from [Bob] failed to parse!: 'I will PLACE the bread in bin_back_left PATH [(0.35, 1.05, 0.62), (0.25, 0.58, 0.62), (0.25, 0.58, 0.36)].
+
+PROCEED'
+Response does not contain NAME. Re-format to strictly follow [Action Output Instruction]!
+querying 0th time
+======= response ======= 
+  I will PICK the bread PATH [(0.29, 0.06, 0.51), (-0.22, 0.60, 0.51), (-0.22, 0.60, 0.31)]. 
+
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 54,
+  "prompt_tokens": 2848,
+  "total_tokens": 2902
+}
+querying 0th time
+======= response ======= 
+  I will PLACE the bread in bin_back_left PATH [(0.35, 1.05, 0.62), (0.25, 0.58, 0.62), (0.25, 0.58, 0.36)].
+
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 58,
+  "prompt_tokens": 2909,
+  "total_tokens": 2967
+}
+querying 0th time
+======= response ======= 
+  Great job, Bob! I will now proceed with my plan.
+======= usage ======= 
+  {
+  "completion_tokens": 13,
+  "prompt_tokens": 2971,
+  "total_tokens": 2984
+}
+querying 0th time
+======= response ======= 
+  Great job, Alice! I will now proceed with my plan.
+======= usage ======= 
+  {
+  "completion_tokens": 13,
+  "prompt_tokens": 2987,
+  "total_tokens": 3000
+}
+querying 0th time
+======= response ======= 
+  Great job, Bob! I will now proceed with my plan.
+
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 15,
+  "prompt_tokens": 3003,
+  "total_tokens": 3018
+}
+querying 0th time
+======= response ======= 
+  PROCEED
+
+EXECUTE
+NAME Bob ACTION PLACE bread bin_back_left PATH [(0.35, 1.05, 0.62), (0.25, 0.58, 0.62), (0.25, 0.58, 0.36)]
+======= usage ======= 
+  {
+  "completion_tokens": 60,
+  "prompt_tokens": 3022,
+  "total_tokens": 3082
+}
+
+This previous response from [Bob] failed to parse!: 'PROCEED
+
+EXECUTE
+NAME Bob ACTION PLACE bread bin_back_left PATH [(0.35, 1.05, 0.62), (0.25, 0.58, 0.62), (0.25, 0.58, 0.36)]'
+Response missing plan for robot Alice. Re-format to strictly follow [Action Output Instruction]!
+querying 0th time
+======= response ======= 
+  I will PICK the bread PATH [(0.29, 0.06, 0.51), (-0.22, 0.60, 0.51), (-0.22, 0.60, 0.31)]. 
+
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 54,
+  "prompt_tokens": 3173,
+  "total_tokens": 3227
+}
+querying 0th time
+======= response ======= 
+  I will PLACE the bread in bin_back_left PATH [(0.35, 1.05, 0.62), (0.25, 0.58, 0.62), (0.25, 0.58, 0.36)].
+
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 58,
+  "prompt_tokens": 3234,
+  "total_tokens": 3292
+}
+querying 0th time
+======= response ======= 
+  Great job, Bob! I will now proceed with my plan.
+
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 15,
+  "prompt_tokens": 3296,
+  "total_tokens": 3311
+}
+querying 0th time
+======= response ======= 
+  Great job, Alice! I will now proceed with my plan. 
+
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 16,
+  "prompt_tokens": 3315,
+  "total_tokens": 3331
+}
+querying 0th time
+======= response ======= 
+  PROCEED
+
+EXECUTE
+NAME Alice ACTION PICK bread PATH [(0.29, 0.06, 0.51), (-0.22, 0.60, 0.51), (-0.22, 0.60, 0.31)]
+======= usage ======= 
+  {
+  "completion_tokens": 57,
+  "prompt_tokens": 3335,
+  "total_tokens": 3392
+}
+
+This previous response from [Alice] failed to parse!: 'PROCEED
+
+EXECUTE
+NAME Alice ACTION PICK bread PATH [(0.29, 0.06, 0.51), (-0.22, 0.60, 0.51), (-0.22, 0.60, 0.31)]'
+Response missing plan for robot Bob. Re-format to strictly follow [Action Output Instruction]!
+querying 0th time
+======= response ======= 
+  I will PICK the bread PATH [(0.29, 0.06, 0.51), (-0.22, 0.60, 0.51), (-0.22, 0.60, 0.31)]. 
+
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 54,
+  "prompt_tokens": 3480,
+  "total_tokens": 3534
+}
+querying 0th time
+======= response ======= 
+  I will PLACE the bread in bin_back_left PATH [(0.35, 1.05, 0.62), (0.25, 0.58, 0.62), (0.25, 0.58, 0.36)].
+======= usage ======= 
+  {
+  "completion_tokens": 55,
+  "prompt_tokens": 3541,
+  "total_tokens": 3596
+}
+querying 0th time
+======= response ======= 
+  Great job, Bob! I will now proceed with my plan. 
+
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 16,
+  "prompt_tokens": 3600,
+  "total_tokens": 3616
+}
+querying 0th time
+======= response ======= 
+  Great job, Alice! I will now proceed with my plan. 
+
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 16,
+  "prompt_tokens": 3620,
+  "total_tokens": 3636
+}
+querying 0th time
+======= response ======= 
+  Great job, Bob! I will now proceed with my plan. 
+
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 16,
+  "prompt_tokens": 3640,
+  "total_tokens": 3656
+}
+querying 0th time
+======= response ======= 
+  I will PLACE the bread in bin_back_left PATH [(0.35, 1.05, 0.62), (0.25, 0.58, 0.62), (0.25, 0.58, 0.36)].
+======= usage ======= 
+  {
+  "completion_tokens": 55,
+  "prompt_tokens": 3660,
+  "total_tokens": 3715
+}
+querying 0th time
+======= response ======= 
+  Great job, Bob! I will now proceed with my plan. 
+
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 16,
+  "prompt_tokens": 3719,
+  "total_tokens": 3735
+}
+querying 0th time
+======= response ======= 
+  I will PLACE the bread in bin_back_left PATH [(0.35, 1.05, 0.62), (0.25, 0.58, 0.62), (0.25, 0.58, 0.36)].
+
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 58,
+  "prompt_tokens": 3739,
+  "total_tokens": 3797
+}
+querying 0th time
+======= response ======= 
+  PROCEED
+
+EXECUTE
+NAME Alice ACTION PICK bread PATH [(0.29, 0.06, 0.51), (-0.22, 0.60, 0.51), (-0.22, 0.60, 0.31)]
+======= usage ======= 
+  {
+  "completion_tokens": 57,
+  "prompt_tokens": 3801,
+  "total_tokens": 3858
+}
+
+This previous response from [Alice] failed to parse!: 'PROCEED
+
+EXECUTE
+NAME Alice ACTION PICK bread PATH [(0.29, 0.06, 0.51), (-0.22, 0.60, 0.51), (-0.22, 0.60, 0.31)]'
+Response missing plan for robot Bob. Re-format to strictly follow [Action Output Instruction]!
+Run 0: Step 0 failed to get a plan from LLM. Move on to next step.
+querying 0th time
+======= response ======= 
+  I will PICK the apple PATH [(0.29, 0.06, 0.51), (0.29, 0.06, 0.6), (-0.73, 0.40, 0.6), (-0.73, 0.40, 0.36)].
+======= usage ======= 
+  {
+  "completion_tokens": 66,
+  "prompt_tokens": 1336,
+  "total_tokens": 1402
+}
+querying 0th time
+======= response ======= 
+  I will PLACE the banana bin_front_middle PATH [(0.35, 1.05, 0.62), (0.45, 0.41, 0.62), (0.45, 0.41, 0.5), (0.45, 0.41, 0.36)].
+======= usage ======= 
+  {
+  "completion_tokens": 69,
+  "prompt_tokens": 1410,
+  "total_tokens": 1479
+}
+querying 0th time
+======= response ======= 
+  I will PICK the milk PATH [(0.29, 0.06, 0.51), (-0.01, 0.57, 0.51), (-0.01, 0.57, 0.47)]. 
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 54,
+  "prompt_tokens": 1483,
+  "total_tokens": 1537
+}
+querying 0th time
+======= response ======= 
+  I will PICK the soda_can PATH [(0.35, 1.05, 0.62), (-0.72, 0.62, 0.62), (-0.72, 0.62, 0.36)]. 
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 55,
+  "prompt_tokens": 1541,
+  "total_tokens": 1596
+}
+querying 0th time
+======= response ======= 
+  I will PLACE the milk bin_front_left PATH [(0.29, 0.06, 0.51), (-0.01, 0.57, 0.51), (0.25, 0.41, 0.51), (0.25, 0.41, 0.36)].
+======= usage ======= 
+  {
+  "completion_tokens": 69,
+  "prompt_tokens": 1600,
+  "total_tokens": 1669
+}
+querying 0th time
+======= response ======= 
+  I will PICK the bread PATH [(0.35, 1.05, 0.62), (-0.22, 0.60, 0.62), (-0.22, 0.60, 0.36)]. 
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 54,
+  "prompt_tokens": 1673,
+  "total_tokens": 1727
+}
+querying 0th time
+======= response ======= 
+  I will PICK the bread PATH [(0.29, 0.06, 0.51), (-0.22, 0.60, 0.51), (-0.22, 0.60, 0.36)].
+======= usage ======= 
+  {
+  "completion_tokens": 51,
+  "prompt_tokens": 1731,
+  "total_tokens": 1782
+}
+querying 0th time
+======= response ======= 
+  I will PLACE the soda_can bin_back_middle PATH [(0.35, 1.05, 0.62), (-0.72, 0.62, 0.62), (0.45, 0.58, 0.62), (0.45, 0.58, 0.36)].
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 73,
+  "prompt_tokens": 1786,
+  "total_tokens": 1859
+}
+querying 0th time
+======= response ======= 
+  I will PLACE the bread bin_front_right PATH [(0.29, 0.06, 0.51), (-0.22, 0.60, 0.51), (0.65, 0.41, 0.51), (0.65, 0.41, 0.36)].
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 72,
+  "prompt_tokens": 1863,
+  "total_tokens": 1935
+}
+querying 0th time
+======= response ======= 
+  EXECUTE
+NAME Bob ACTION PICK soda_can PATH [(0.35, 1.05, 0.62), (-0.72, 0.62, 0.62), (-0.72, 0.62, 0.36)]
+NAME Bob ACTION PLACE soda_can bin_back_middle PATH [(0.35, 1.05, 0.62), (-0.72, 0.62, 0.62), (0.45, 0.58, 0.62), (0.45, 0.58, 0.36)]
+======= usage ======= 
+  {
+  "completion_tokens": 125,
+  "prompt_tokens": 1968,
+  "total_tokens": 2093
+}
+
+This previous response from [Bob] failed to parse!: 'EXECUTE
+NAME Bob ACTION PICK soda_can PATH [(0.35, 1.05, 0.62), (-0.72, 0.62, 0.62), (-0.72, 0.62, 0.36)]
+NAME Bob ACTION PLACE soda_can bin_back_middle PATH [(0.35, 1.05, 0.62), (-0.72, 0.62, 0.62), (0.45, 0.58, 0.62), (0.45, 0.58, 0.36)]'
+Response missing plan for robot Alice. Re-format to strictly follow [Action Output Instruction]!
+querying 0th time
+======= response ======= 
+  I will PICK the cereal PATH [(0.29, 0.06, 0.51), (-0.04, 0.38, 0.51), (-0.04, 0.38, 0.44)].
+======= usage ======= 
+  {
+  "completion_tokens": 51,
+  "prompt_tokens": 2222,
+  "total_tokens": 2273
+}
+querying 0th time
+======= response ======= 
+  I will PICK the cereal PATH [(0.35, 1.05, 0.62), (-0.04, 0.38, 0.62), (-0.04, 0.38, 0.44)].
+======= usage ======= 
+  {
+  "completion_tokens": 51,
+  "prompt_tokens": 2280,
+  "total_tokens": 2331
+}
+querying 0th time
+======= response ======= 
+  I will PLACE the cereal bin_front_right PATH [(0.29, 0.06, 0.51), (-0.04, 0.38, 0.51), (0.65, 0.41, 0.51), (0.65, 0.41, 0.36)].
+======= usage ======= 
+  {
+  "completion_tokens": 69,
+  "prompt_tokens": 2335,
+  "total_tokens": 2404
+}
+querying 0th time
+======= response ======= 
+  I will PICK the cereal PATH [(0.35, 1.05, 0.62), (-0.04, 0.38, 0.62), (-0.04, 0.38, 0.44)].
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 54,
+  "prompt_tokens": 2408,
+  "total_tokens": 2462
+}
+querying 0th time
+======= response ======= 
+  I will PICK the cereal PATH [(0.29, 0.06, 0.51), (-0.04, 0.38, 0.51), (-0.04, 0.38, 0.44)].
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 54,
+  "prompt_tokens": 2466,
+  "total_tokens": 2520
+}
+querying 0th time
+======= response ======= 
+  I will PICK the cereal PATH [(0.35, 1.05, 0.62), (-0.04, 0.38, 0.62), (-0.04, 0.38, 0.44)].
+======= usage ======= 
+  {
+  "completion_tokens": 51,
+  "prompt_tokens": 2524,
+  "total_tokens": 2575
+}
+querying 0th time
+======= response ======= 
+  I will PICK the cereal PATH [(0.29, 0.06, 0.51), (-0.04, 0.38, 0.51), (-0.04, 0.38, 0.44)].
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 54,
+  "prompt_tokens": 2579,
+  "total_tokens": 2633
+}
+querying 0th time
+======= response ======= 
+  I will PICK the cereal PATH [(0.35, 1.05, 0.62), (-0.04, 0.38, 0.62), (-0.04, 0.38, 0.44)]. 
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 54,
+  "prompt_tokens": 2637,
+  "total_tokens": 2691
+}
+querying 0th time
+======= response ======= 
+  I will PICK the cereal PATH [(0.29, 0.06, 0.51), (-0.04, 0.38, 0.51), (-0.04, 0.38, 0.44)].
+======= usage ======= 
+  {
+  "completion_tokens": 51,
+  "prompt_tokens": 2695,
+  "total_tokens": 2746
+}
+querying 0th time
+======= response ======= 
+  I will PICK the cereal PATH [(0.35, 1.05, 0.62), (-0.04, 0.38, 0.62), (-0.04, 0.38, 0.44)].
+EXECUTE
+NAME Bob ACTION PICK cereal PATH [(0.35, 1.05, 0.62), (-0.04, 0.38, 0.62), (-0.04, 0.38, 0.44)]
+======= usage ======= 
+  {
+  "completion_tokens": 106,
+  "prompt_tokens": 2779,
+  "total_tokens": 2885
+}
+
+This previous response from [Bob] failed to parse!: 'I will PICK the cereal PATH [(0.35, 1.05, 0.62), (-0.04, 0.38, 0.62), (-0.04, 0.38, 0.44)].
+EXECUTE
+NAME Bob ACTION PICK cereal PATH [(0.35, 1.05, 0.62), (-0.04, 0.38, 0.62), (-0.04, 0.38, 0.44)]'
+Response missing plan for robot Alice. Re-format to strictly follow [Action Output Instruction]!
+querying 0th time
+======= response ======= 
+  I will PICK the cereal PATH [(0.29, 0.06, 0.51), (-0.04, 0.38, 0.51), (-0.04, 0.38, 0.44)].
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 54,
+  "prompt_tokens": 2993,
+  "total_tokens": 3047
+}
+querying 0th time
+======= response ======= 
+  I will PLACE the cereal bin_back_left PATH [(0.35, 1.05, 0.62), (-0.04, 0.38, 0.62), (-0.04, 0.38, 0.36), (0.25, 0.58, 0.36)]. 
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 72,
+  "prompt_tokens": 3054,
+  "total_tokens": 3126
+}
+querying 0th time
+======= response ======= 
+  I will PICK the cereal PATH [(0.29, 0.06, 0.51), (-0.04, 0.38, 0.51), (-0.04, 0.38, 0.44)].
+======= usage ======= 
+  {
+  "completion_tokens": 51,
+  "prompt_tokens": 3130,
+  "total_tokens": 3181
+}
+querying 0th time
+======= response ======= 
+  I will PICK the cereal PATH [(0.35, 1.05, 0.62), (-0.04, 0.38, 0.62), (-0.04, 0.38, 0.44)].
+======= usage ======= 
+  {
+  "completion_tokens": 51,
+  "prompt_tokens": 3185,
+  "total_tokens": 3236
+}
+querying 0th time
+======= response ======= 
+  I will PICK the cereal PATH [(0.29, 0.06, 0.51), (-0.04, 0.38, 0.51), (-0.04, 0.38, 0.44)].
+======= usage ======= 
+  {
+  "completion_tokens": 51,
+  "prompt_tokens": 3240,
+  "total_tokens": 3291
+}
+querying 0th time
+======= response ======= 
+  I will PICK the cereal PATH [(0.35, 1.05, 0.62), (-0.04, 0.38, 0.62), (-0.04, 0.38, 0.44)].
+======= usage ======= 
+  {
+  "completion_tokens": 51,
+  "prompt_tokens": 3295,
+  "total_tokens": 3346
+}
+querying 0th time
+======= response ======= 
+  I will PICK the cereal PATH [(0.29, 0.06, 0.51), (-0.04, 0.38, 0.51), (-0.04, 0.38, 0.44)].
+======= usage ======= 
+  {
+  "completion_tokens": 51,
+  "prompt_tokens": 3350,
+  "total_tokens": 3401
+}
+querying 0th time
+======= response ======= 
+  I will PICK the cereal PATH [(0.35, 1.05, 0.62), (-0.04, 0.38, 0.62), (-0.04, 0.38, 0.44)].
+======= usage ======= 
+  {
+  "completion_tokens": 51,
+  "prompt_tokens": 3405,
+  "total_tokens": 3456
+}
+querying 0th time
+======= response ======= 
+  I will PICK the cereal PATH [(0.29, 0.06, 0.51), (-0.04, 0.38, 0.51), (-0.04, 0.38, 0.44)].
+======= usage ======= 
+  {
+  "completion_tokens": 51,
+  "prompt_tokens": 3460,
+  "total_tokens": 3511
+}
+querying 0th time
+======= response ======= 
+  I will PLACE the cereal bin_back_left PATH [(0.35, 1.05, 0.62), (-0.04, 0.38, 0.62), (-0.04, 0.38, 0.36), (0.25, 0.58, 0.36)]. 
+EXECUTE
+NAME Bob ACTION PLACE cereal bin_back_left PATH [(0.35, 1.05, 0.62), (-0.04, 0.38, 0.62), (-0.04, 0.38, 0.36), (0.25, 0.58, 0.36)]
+======= usage ======= 
+  {
+  "completion_tokens": 142,
+  "prompt_tokens": 3544,
+  "total_tokens": 3686
+}
+
+This previous response from [Bob] failed to parse!: 'I will PLACE the cereal bin_back_left PATH [(0.35, 1.05, 0.62), (-0.04, 0.38, 0.62), (-0.04, 0.38, 0.36), (0.25, 0.58, 0.36)]. 
+EXECUTE
+NAME Bob ACTION PLACE cereal bin_back_left PATH [(0.35, 1.05, 0.62), (-0.04, 0.38, 0.62), (-0.04, 0.38, 0.36), (0.25, 0.58, 0.36)]'
+Response missing plan for robot Alice. Re-format to strictly follow [Action Output Instruction]!
+querying 0th time
+======= response ======= 
+  I will PICK the cereal PATH [(0.29, 0.06, 0.51), (-0.04, 0.38, 0.51), (-0.04, 0.38, 0.44)].
+======= usage ======= 
+  {
+  "completion_tokens": 51,
+  "prompt_tokens": 3830,
+  "total_tokens": 3881
+}
+querying 0th time
+======= response ======= 
+  I will PLACE the cereal bin_back_left PATH [(0.35, 1.05, 0.62), (-0.04, 0.38, 0.62), (-0.04, 0.38, 0.36), (0.25, 0.58, 0.36)].
+======= usage ======= 
+  {
+  "completion_tokens": 69,
+  "prompt_tokens": 3888,
+  "total_tokens": 3957
+}
+querying 0th time
+======= response ======= 
+  Great job, Bob! I will now proceed with my plan.
+
+I will PICK the cereal PATH [(0.29, 0.06, 0.51), (-0.04, 0.38, 0.51), (-0.04, 0.38, 0.44)].
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 67,
+  "prompt_tokens": 3961,
+  "total_tokens": 4028
+}
+querying 0th time
+======= response ======= 
+  I will now proceed with my plan.
+
+I will PICK the cereal PATH [(0.35, 1.05, 0.62), (-0.04, 0.38, 0.62), (-0.04, 0.38, 0.44)].
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 62,
+  "prompt_tokens": 4032,
+  "total_tokens": 4094
+}
+querying 0th time
+======= response ======= 
+  Great job, Bob! I will now proceed with my plan.
+
+I will PICK the cereal PATH [(0.29, 0.06, 0.51), (-0.04, 0.38, 0.51), (-0.04, 0.38, 0.44)].
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 67,
+  "prompt_tokens": 4098,
+  "total_tokens": 4165
+}
+querying 0th time
+======= response ======= 
+  PROCEED
+
+EXECUTE
+NAME Bob ACTION PLACE cereal bin_back_left PATH [(0.35, 1.05, 0.62), (-0.04, 0.38, 0.62), (-0.04, 0.38, 0.36), (0.25, 0.58, 0.36)]
+======= usage ======= 
+  {
+  "completion_tokens": 75,
+  "prompt_tokens": 4169,
+  "total_tokens": 4244
+}
+
+This previous response from [Bob] failed to parse!: 'PROCEED
+
+EXECUTE
+NAME Bob ACTION PLACE cereal bin_back_left PATH [(0.35, 1.05, 0.62), (-0.04, 0.38, 0.62), (-0.04, 0.38, 0.36), (0.25, 0.58, 0.36)]'
+Response missing plan for robot Alice. Re-format to strictly follow [Action Output Instruction]!
+querying 0th time
+======= response ======= 
+  I will PICK the cereal PATH [(0.29, 0.06, 0.51), (-0.04, 0.38, 0.51), (-0.04, 0.38, 0.44)]. 
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 54,
+  "prompt_tokens": 4350,
+  "total_tokens": 4404
+}
+querying 0th time
+======= response ======= 
+  I will PICK the cereal PATH [(0.35, 1.05, 0.62), (-0.04, 0.38, 0.62), (-0.04, 0.38, 0.44)].
+======= usage ======= 
+  {
+  "completion_tokens": 51,
+  "prompt_tokens": 4411,
+  "total_tokens": 4462
+}
+querying 0th time
+======= response ======= 
+  Great job, Bob! I will now proceed with my plan.
+
+I will PICK the cereal PATH [(0.29, 0.06, 0.51), (-0.04, 0.38, 0.51), (-0.04, 0.38, 0.44)].
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 67,
+  "prompt_tokens": 4466,
+  "total_tokens": 4533
+}
+querying 0th time
+======= response ======= 
+  I will now proceed with my plan.
+
+I will PICK the cereal PATH [(0.35, 1.05, 0.62), (-0.04, 0.38, 0.62), (-0.04, 0.38, 0.44)].
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 62,
+  "prompt_tokens": 4537,
+  "total_tokens": 4599
+}
+querying 0th time
+======= response ======= 
+  Great job, Bob! I will now proceed with my plan.
+
+I will PICK the cereal PATH [(0.29, 0.06, 0.51), (-0.04, 0.38, 0.51), (-0.04, 0.38, 0.44)].
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 67,
+  "prompt_tokens": 4603,
+  "total_tokens": 4670
+}
+querying 0th time
+======= response ======= 
+  I will now proceed with my plan.
+
+I will PICK the cereal PATH [(0.35, 1.05, 0.62), (-0.04, 0.38, 0.62), (-0.04, 0.38, 0.44)].
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 62,
+  "prompt_tokens": 4674,
+  "total_tokens": 4736
+}
+querying 0th time
+======= response ======= 
+  I will PICK the cereal PATH [(0.29, 0.06, 0.51), (-0.04, 0.38, 0.51), (-0.04, 0.38, 0.44)]. 
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 54,
+  "prompt_tokens": 4740,
+  "total_tokens": 4794
+}
+querying 0th time
+======= response ======= 
+  I will PICK the cereal PATH [(0.35, 1.05, 0.62), (-0.04, 0.38, 0.62), (-0.04, 0.38, 0.44)]. 
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 54,
+  "prompt_tokens": 4798,
+  "total_tokens": 4852
+}
+querying 0th time
+======= response ======= 
+  Great job, Bob! I will now proceed with my plan.
+
+I will PICK the cereal PATH [(0.29, 0.06, 0.51), (-0.04, 0.38, 0.51), (-0.04, 0.38, 0.44)].
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 67,
+  "prompt_tokens": 4856,
+  "total_tokens": 4923
+}
+querying 0th time
+======= response ======= 
+  EXECUTE
+NAME Bob ACTION PICK cereal PATH [(0.35, 1.05, 0.62), (-0.04, 0.38, 0.62), (-0.04, 0.38, 0.44)]
+======= usage ======= 
+  {
+  "completion_tokens": 54,
+  "prompt_tokens": 4956,
+  "total_tokens": 5010
+}
+
+This previous response from [Bob] failed to parse!: 'EXECUTE
+NAME Bob ACTION PICK cereal PATH [(0.35, 1.05, 0.62), (-0.04, 0.38, 0.62), (-0.04, 0.38, 0.44)]'
+Response missing plan for robot Alice. Re-format to strictly follow [Action Output Instruction]!
+Run 0: Step 1 failed to get a plan from LLM. Move on to next step.
+querying 0th time
+======= response ======= 
+  I will PICK the apple PATH [(0.29, 0.06, 0.51), (0.29, 0.06, 0.6), (-0.73, 0.40, 0.6), (-0.73, 0.40, 0.3)]
+PROCEED
+======= usage ======= 
+  {
+  "completion_tokens": 68,
+  "prompt_tokens": 1336,
+  "total_tokens": 1404
+}
+querying 0th time
+======= response ======= 
+  I will PLACE the banana in bin_front_left PATH [(0.35, 1.05, 0.62), (0.35, 0.41, 0.62), (0.25, 0.41, 0.62), (0.25, 0.41, 0.36)]
+======= usage ======= 
+  {
+  "completion_tokens": 70,
+  "prompt_tokens": 1412,
+  "total_tokens": 1482
+}
+querying 0th time
+======= response ======= 
+  I will PLACE the apple in bin_front_left PATH [(0.29, 0.06, 0.51), (0.25, 0.41, 0.51), (0.25, 0.41, 0.36)]
+======= usage ======= 
+  {
+  "completion_tokens": 55,
+  "prompt_tokens": 1485,
+  "total_tokens": 1540
+}
+querying 0th time
+======= response ======= 
+  EXECUTE
+NAME Bob ACTION PLACE banana bin_front_left PATH [(0.35, 1.05, 0.62), (0.35, 0.41, 0.62), (0.25, 0.41, 0.62), (0.25, 0.41, 0.36)]
+======= usage ======= 
+  {
+  "completion_tokens": 72,
+  "prompt_tokens": 1543,
+  "total_tokens": 1615
+}
+
+This previous response from [Bob] failed to parse!: 'EXECUTE
+NAME Bob ACTION PLACE banana bin_front_left PATH [(0.35, 1.05, 0.62), (0.35, 0.41, 0.62), (0.25, 0.41, 0.62), (0.25, 0.41, 0.36)]'
+Response missing plan for robot Alice. Re-format to strictly follow [Action Output Instruction]!
+querying 0th time
